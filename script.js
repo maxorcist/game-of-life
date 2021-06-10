@@ -152,7 +152,7 @@ let birthList = new Set();
 let interval;
 function life(){
     if (!interval) {
-        interval = setInterval(run, 500);
+        interval = setInterval(run, 100);
     }
     else {
         clearInterval(interval);
