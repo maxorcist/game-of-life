@@ -1,0 +1,14 @@
+body{
+	font-family: Myriad, Arial, sans-serif;
+}
+#canvas {
+	border: 1px solid black;
+}
+#instruct {
+	margin: 0;
+	font-family: "Emilbus Mono", monospace;
+}
+
+.button {
+	padding: 20px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Life</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <p id="instruct">Game of Life - Click a square to toggle it</p>
+    <canvas id="canvas" width="800" height="500"><span style="font: 15px monospace; color: red;">
+        update your browser
+    </span></canvas>
+    <div>
+        <button class="button" onclick="life()">Start | Stop</button>
+        <button class="button" onclick="randomizeLife()">Randomize</button>
+        <button class="button" onclick="clearCanvas()">Clear</button>
+    </div>
+
+</body>
+</html>
